@@ -1,8 +1,0 @@
-{
-    "terminal.integrated.cwd": "",
-    "files.associations": {
-        "iostream": "cpp",
-        "ostream": "cpp",
-        "random": "cpp"
-    }
-}
