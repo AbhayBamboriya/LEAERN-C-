@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    /* display: none; */
+    background-color: #111827;
+}
+nav ul button{
+    padding: 10px 20px 10px 20px;
+    background-color: #6663e9;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+nav ul{
+    display: flex;
+    color: aliceblue;
+    gap: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 1650px;
+    cursor: pointer;
+}
+
+
+h2,h1{
+    color: white;
+}
+h3{
+    color: rgb(197, 197, 89);;
+    
+}
+.image{
+    margin-left: 800px;
+    
+    /* margin-left: 20px; */
+    margin-right: 20px;
+    /* height: 2px; */
+    margin-bottom: 200px;
+}
+h2,h1,h3{
+    margin-left: 480px;
+   
+}
+html{
+    overflow: scroll;
+}
+.heading{
+   margin-top: -600px;
+   /* z-index: 3; */
+   font-size: 20px;
+   position: absolute;
+   
+}
+h4{
+    color: white;
+    margin-top: 350px;
+    font-size: 30px;
+    margin-left: 890px;
+}
+hr{
+    margin-left: 890px;
+    margin-right: 243px;
+    /* position: absolute; */
+}
+.images{
+    margin-left: 630px;
+    margin-top: 20px;
+}
+.heading .images{
+    display: flex;
+    gap: 10px;
+    /* position: absolute; */
+
+}
+.heading .images .images1 .P1,.P2{
+    color: white;
+    
+    padding-left: 130px;
+}
+.heading .images .images2 .P1,.P2{
+    color: white;
+    
+    padding-left: 130px;
+}
+h5{
+    color: white;
+    margin-top: 80px;
+    font-size: 30px;
+    margin-left: 850px;
+}
+.heading .line{
+    margin-left: 850px;
+    margin-right: 250px;
+    height: 5px;
+}
+.heading .list{
+    margin-top: 20px;
+    margin-left: 860px;
+    gap: 25px;
+    cursor: pointer;
+    display: flex;
+}
+@media screen and (max-width: 576px) {
+    body{
+        
+        background-color: #111827;
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+    
+    .hambrger{
+        margin-top: -802px;
+        margin-left: 50px;
+        position: absolute;
+        height:75px;
+        width: 75px;
+    }
+    .heading img{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        
+        margin-left: -180px;
+        
+       
+    }
+    .heading .hi{
+        margin-top: 130px;
+        margin-left: 229px;
+        font-size: 40px;
+        margin-bottom: 10px;
+
+    }
+    .heading h1{
+        font-size: 50px;
+        margin-left: 160px;
+        margin-bottom: 10px;
+    }
+    .heading h3{
+        font-size: 50px;
+        margin-left: 230px;
+    }
+    
+    .heading h4{
+        /* margin-left: -1000px; */
+        position: absolute;
+        margin-left: 250px;
+        margin-top: 50px;
+        font-size: 50px;
+    }
+    hr{
+        height: 10px;
+        margin-left: 250px;
+        margin-top: 110px;
+        width: 170px;
+    }
+    .images .images1 .img1{
+        height: 300px;
+        width: 300px;
+        gap: 120px;
+        margin-left: -440px;
+    } 
+    .images .images1 .P1{
+        margin-top: 330px;
+        margin-left: -200px;
+        height: 45px;
+        font-size: 40px;
+    }
+    .images .images1 .img2{
+        height: 300px;
+        width: 300px;
+        gap: 120px;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: -450px;
+        /* padding-bottom: 300px; */
+        margin-bottom: 200px;
+        /* padding-bottom: 200px; */
+    } 
+    .images .images2 .img3{
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        margin-bottom: 1000px;
+        padding-top: 200px;
+        margin-top: 100px;
+    }
+
+    
+}

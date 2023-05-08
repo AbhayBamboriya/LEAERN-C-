@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    /* height: 6000px; */
+    /* background-color: rgba(0, 0, 0, 0.911); */
+}
+.project{
+    background-color:rgba(0, 0, 0, 0.911) ;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+html{
+    overflow:scroll;
+}
+nav button{
+    margin-top: 38px;
+    font-size: 20px;
+    background-color: #a69c9c;
+    cursor: pointer;
+    border-radius: 20px;
+    padding:20px 40px 20px 40px;
+}
+nav .list{
+    gap: 50px;
+    cursor: pointer;
+}
+.onear{
+    padding-left: 800px;
+    padding-top: -300px;
+    margin-top: -200px;
+}
+
+
+.specsImage{
+    padding-left: 100px;
+
+    padding-top: 90px;
+    background-color: red;
+    margin-left: 600px;
+    margin-right: 300px;
+    /* width: ; */
+    /* position: fixed; */
+}
+.swift{
+    /* margin-top: -400px;  */
+    padding-top: -150px;
+    position: absolute;
+    padding-bottom: -40px;
+ 
+}
+span{
+    display: block;
+    
+}
+
+.image{
+    padding-top: 50px;
+    padding-left: 630px;
+}
+.image1{
+    padding-top: 100px;
+    padding-left: 475px;
+    /* position: fixed; */
+}
+.para{
+    padding-top: 250px;
+    padding-left: 1000px;
+    color: white;
+
+}
+
+.para button{
+    background-color: rgba(12, 1, 1, 0.663);
+    color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border-color:black(12, 1, 1, 0.498);
+}
+.buynowsectionimage {
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-bottom: 50px;
+    background-color: #262626;
+    margin-top: 250px;
+    width: 1100px;
+    
+    margin-left: 300px;
+}
+.buynowsectionimage.image{
+    /* position: fixed; */
+    
+    padding-right: 200px;
+}
+.buynowsectionimage .details{
+    padding-left: 150px;
+    padding-top: 100px;
+  
+    margin-left: 0px;
+    color: white;
+    /* position: fixed; */
+}
+.buynowsectionimage .details button{
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    border-color: black;
+    padding-top: 10px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+span .photo{
+    padding-left: 410px;
+    height: 150px;
+}
+span .swift{
+    padding-left: 459px;
+    height: 150px;
+    
+}
+nav .beats,.shop,.list{
+    padding-top: 50px;
+}
+nav ul{
+    display: flex;
+    color: white;
+
+}
+nav{
+    display: flex;
+    gap: 100px;
+    margin-left: 250px;
+    padding-bottom: 0px;
+    margin-bottom: 2px;
+    /* position: fixed; */
+}
+.information{
+    color: white;
+    padding-left: 700px;
+    padding-top: 30px;
+
+}
+.information h1{
+    font-size: 50px;
+}
+.information h2{
+    padding-top:40px;
+    padding-bottom:40px ;
+}
+.information p{
+    word-spacing: 2px;
+}
+.logo ul{
+    display: flex;
+    padding-left: 280px;
+    padding-top: 100px;
+    gap: 200px;
+    
+}
+.more{
+    padding-top: 150px;
+    padding-left: 510px;
+}
+.more12 {
+    margin-top: 100px;
+    margin-left: 575px;
+    /* display: flex; */
+}
+.more12 .images{
+    display: flex;
+    /* background-color: #252B2B; */
+}
+.more12 .images .black{
+    margin-top: 150px;
+    background-color: #252B2B;
+}
+.more12 .images .blue{
+    margin-top: 200px;
+    background-color: #252B2B;
+}
+footer .flex .product{
+    color: white;
+    padding-top: 200px;
+}
+
+footer .flex .product h4{
+    font-weight: 200;
+    font-size: 37px;
+}
+footer .flex .support h4{
+    font-weight: 200;
+    font-size: 37px;
+}
+footer .flex .product ul{
+    font-weight: 200;
+    font-size: 20px;
+    cursor: pointer;
+}
+footer .flex .support  ul{
+    font-weight: 200;
+    font-size: 20px;
+    cursor: pointer;
+}
+footer .flex .support{
+    color: white;
+    padding-top: 200px;
+    
+}
+footer .flex span{
+    padding-top: 200px;
+}
+footer .flex{
+    display: flex;
+    margin-top: -99px;
+    padding-top: 1px;
+    padding-left:200px;
+    position: fixed;
+    gap: 250px;
+}
+footer ul{
+    color: white;
+}
+
+footer .flex .form{
+    background-color: #262626;
+    display: flex;
+    height: 45px;
+    padding-right: 20px;
+    font-size: 30px;
+    gap: 20px;
+    position: fixed;
+    border-style: none;
+    /* border-color: #262626 ; */
+    margin-left: 1000px;
+    margin-top: 200px;
+    
+}
+footer .flex .form input{
+    font-size: 30px;
+    background-color: #262626;
+    border-color: #262626;
+}
+footer .image12{
+    padding-left: 1200px;
+    padding-top: 350px;
+    gap: 20% ;
+    cursor: pointer;
+}
+
+

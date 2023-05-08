@@ -1,0 +1,32 @@
+body{
+    background-image:conic-gradient(red 210deg,green 170deg);
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat; */
+    /* font-variant: normal; */
+    /* width: 750px; */
+    /* background-attachment: local;
+    background-size: cover; */
+    /* margin:auto; */
+}
+p{
+    display: inline;
+}
+span{
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+    transition: width 8s height 8s;
+    
+}
+h1{
+    margin: auto;
+
+    color: aqua;
+}
+
+
+input:focus{
+    color: red;
+    background-color:yellowgreen;
+    font-size: 25px;
+}

@@ -1,0 +1,50 @@
+body{
+    background-color: grey;
+}
+nav{
+    background-color: black;
+    
+}
+nav ul{
+    display: flex;
+    padding-top: 5px   ;
+    font-size: 20px;
+    padding-bottom: 5px;
+    gap: 150px;
+}
+nav ul .link{
+    color: white;
+    gap: 50px;
+    cursor: pointer;
+    display: flex;
+    list-style:none;
+    padding-top: 20px;
+   
+}
+nav ul button{
+    color: white;
+}
+h1{
+    align-items: center;
+    padding-left: 475px;
+    padding-top: 100px;
+    color: white;
+    font-size: 70px;
+}
+p{
+    align-items: center;
+    padding-left: 475px;
+    font-size: 30px;
+    color: white;
+}
+button{
+    cursor: pointer;
+    padding:10px 7px 10px 7px ;
+    background-color: rgb(233, 16, 233);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 625px;
+    font-size: 20px;
+    border-color:  rgb(233, 16, 233);
+    color: white;
+}

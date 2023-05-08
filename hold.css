@@ -1,0 +1,15 @@
+body{
+    background-color: darkorange;
+}
+.LED{
+    display: none;
+}
+.moniter{
+    text-align: center;
+}
+.tab{
+    display: none;
+}
+.mobile{
+    display: none; 
+}

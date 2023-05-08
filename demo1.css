@@ -1,0 +1,23 @@
+body{
+    background-color: grey;
+    overflow: auto;
+}
+@media (300px<width<600px) {
+    body{
+        background-color:aqua;
+    }
+    
+}
+div{
+    height: 10px;
+    width: 300px;
+    background-color: antiquewhite;
+    float: right;
+    position: fixed;
+    /* top: 20px;     */
+}
+main{
+    display:flex;
+    text-decoration: none;
+    flex-direction: row;
+}

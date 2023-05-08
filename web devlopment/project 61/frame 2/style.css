@@ -1,0 +1,416 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{font-family: Poppins;
+}
+header hr{
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 3px;
+    margin-top: 20px;
+    background-color: white;
+}
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("mainBackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 940px;
+    margin-left: 500px;
+    margin-right: 500px;
+    /* position: relativ
+    e; 
+    */
+  }
+header nav{
+    display: flex;
+    margin-top: 15px;
+}
+header nav .image{
+    margin-left: 100px;
+    
+}
+header nav ul{
+    margin-left: 220px;
+    display: flex;
+    color: white;
+    cursor: pointer;
+    margin-top: 13px;
+    font-weight: 200 ;
+    gap: 25px;
+    font-size: 15 px;
+}
+header h1{
+    margin-top: 90px;
+    color: white;
+    margin-left: 160px;
+    font-size: 52px;
+}
+header p{
+    color: white;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+header button{
+    background-color: #6663e9;
+    margin-left: 160px;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    font-weight: 40;
+    padding: 20px 30px 20px 30px;
+}
+.logo{
+    background-color: grey;
+    margin: 0 35px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    margin-left: 525px;
+    margin-right: 525px;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    position: relative;
+    /* width: 1500px; */
+    bottom: 100px;
+    margin-bottom: -200px;
+    
+}
+footer .images{
+    background-color: rgb(80, 78, 78);
+    /* height: 100px; */
+    margin-left: 500px;
+    margin-right: 500px;
+   
+    padding-top: 20px;
+
+}
+
+footer .images h1{
+    margin-left:345px;
+    font-weight:900;
+    font-size: 50px;
+    margin-top: 160px;
+    margin-bottom: 80px;
+    
+}
+footer .images h1 span{
+    margin-left: 30px;
+}
+html{
+    overflow:scroll;
+}
+
+footer .images .top{
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+    display: flex;
+   
+}
+footer .images .top .image1{
+    height: 350px;
+    width: 320px;
+    margin-left:10px;
+    border-radius: 20px;
+    
+}
+footer .images .top .image2{
+    border-radius: 20px;
+    height: 350px;
+    margin-top: 40px;
+    width: 320px;
+
+}
+
+footer .images .top .image3{
+    border-radius: 20px;
+    height: 350px;
+    margin-top: 80px;
+    width: 320px;
+}
+
+
+
+
+
+
+
+footer .images .top1{
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+    display: flex;
+   
+}
+footer .images .top1 .image1{
+    height: 350px;
+    width: 320px;
+    margin-left:10px;
+    margin-top: 80px;
+    border-radius: 20px;
+    
+}
+footer .images .top1 .image2{
+    border-radius: 20px;
+    height: 350px;
+    margin-top: 40px;
+    width: 320px;
+
+}
+
+footer .images .top1 .image3{
+    border-radius: 20px;
+    height: 350px;
+    margin-top: 0px;
+    width: 320px;
+}
+footer .images .bg1{
+    margin-left: 00px;
+    margin-top: 20px;
+    
+}
+
+
+
+
+
+
+footer .images .sticker{
+    background-color: white;
+    display: inline-block;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-top: -2000px;
+    /* display: inline; */
+    margin-bottom: 250px;
+    padding-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+}
+footer .images .sticker h3{
+    font-size: 20px;
+    margin-left: -60px;
+    font-weight: 1500;
+}
+footer .images .sticker button{
+    margin-left: 1px;
+    align-items: end;
+    justify-content: end;
+    margin-right: px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: #6663e9;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+}
+footer .images .sticker h5{
+    font-size: 20px;
+    margin-left: -60px;
+    color: #6663e9;
+}
+
+footer .images .sticker12{
+    background-color: white;
+    display:inline-block;
+    margin-left: 56px;
+    border-radius: 20px;
+    margin-top: -400px;
+    margin-bottom: 250px;
+    padding-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+}
+footer .images .sticker12 h3{
+    font-size: 20px;
+    margin-left: -60px;
+    font-weight: 1500;
+}
+footer .images .sticker12 button{
+    margin-left: 1px;
+    align-items: end;
+    justify-content: end;
+    margin-right: px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: #6663e9;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+}
+footer .images .sticker12 h5{
+    font-size: 20px;
+    margin-left: -60px;
+    color: #6663e9;
+}
+footer .images .sticker3{
+    background-color: white;
+    display: inline-block;
+    margin-left: 56px;
+    border-radius: 20px;
+    margin-top: -400px;
+    margin-bottom: 250px;
+    padding-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+}
+footer .images .sticker3 h3{
+    font-size: 20px;
+    margin-left: -60px;
+    font-weight: 1500;
+}
+footer .images .sticker3 button{
+    margin-left: 1px;
+    align-items: end;
+    justify-content: end;
+    margin-right: px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: #6663e9;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+}
+footer .images .sticker3 h5{
+    font-size: 20px;
+    margin-left: -60px;
+    color: #6663e9;
+
+
+}
+footer .images .bg1{
+    margin-top: -200px;
+}
+footer .images .feature1{
+    margin-bottom: 100px;
+    border-radius: 20px;
+    margin-left: -400px;
+}
+footer .images .header{
+    margin-left: 250px;
+    margin-top: -550px;
+    /* color: white; */
+}
+footer .images .header button{
+    margin-left: 350px;
+    padding: 20px 25px 20px 25px;
+    margin-top: -240px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    background-color: #6663e9;
+}
+
+
+footer .images .bg2{
+    margin-top: 300px;
+    margin-left: 530px;
+}
+footer .images .feature2{
+    margin-left: 525px;
+    margin-top: -600px;
+    margin-bottom: 120px;
+    border-radius: 20px;
+}
+
+footer .images .header1{
+    margin-left: -230px;
+    margin-top: -550px;
+    /* margin-bottom: -200px; */
+}
+
+footer .images  button{
+    margin-left: 150px;
+    padding: 20px 25px 20px 25px;
+    margin-top: -240px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #6663e9;
+  
+}
+footer .images .newsletter{
+    background-color: #6663e9;
+    margin-left: 80px;
+    border-radius: 50px;
+    margin-right: 80px;
+    margin-top: 200px;
+}
+footer .images .newsletter h1{
+    margin-left: 90px;
+    color: white;
+    margin-top: 100px;
+    font-size: 60px;
+}
+footer .images .newsletter .mail{
+    margin-left: 130px;
+    margin-top: 0px;
+}
+footer .images .newsletter .button button{
+    margin-left: 550px;
+    margin-top: 1px;
+    color: #6663e9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    background-color: white;
+
+}
+footer .images .newsletter .input{
+    margin-top: -47px;
+    /* position: fixed ; */
+    border-radius: 20px;
+    
+    width: 450px;
+
+    font-size: 30px;
+    margin-left: 50px; 
+    margin-bottom: 20px;
+}
+
+footer .images .right{
+    margin-top: 150px;
+    margin-left: 80px;
+    /* display: flex; */
+}
+footer .images .right .whole{
+    margin-top: -150px;
+    margin-bottom: 100px;
+}
+
+
+
+footer .images .right .same{
+    /* margin-top: -100px; */
+    cursor: pointer;
+    padding-top: 20px;
+    display: flex;
+    margin-bottom: 0px;
+    gap: 60px;
+   
+}
+
+
+footer .images .right .list{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 1px;
+    font-size: 20px;
+    /* padding-bottom: 20px; */
+    /* padding-right: 50px; */
+    cursor: pointer;
+    /* height: 200px; */
+    gap: 80px;
+}
+

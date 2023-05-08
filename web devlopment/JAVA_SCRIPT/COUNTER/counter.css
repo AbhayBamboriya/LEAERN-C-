@@ -1,0 +1,43 @@
+#main{
+    margin-left: 750px;
+    margin-top: 400px;
+    font-size: 30px;
+    
+    width: 700px;
+    border: 6px solid grey;
+}
+h1{
+    margin-left: 220px;
+}
+#operation{
+    gap: 20px;
+}
+#decrement{
+    margin-left: 125px;
+    font-size: 30px;
+    font-weight: 200;
+}
+#increament{
+    font-size: 30px;
+    font-weight: 200;
+    
+}
+
+#main{
+    padding-left: -110px;
+
+}
+#value{
+    font-size: 30px;
+    font-weight: 200;
+
+}
+#reset_Value{
+    font-size: 30px;
+    margin-left: 295px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+

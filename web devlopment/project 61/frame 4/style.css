@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(stethoscope.png);
+    background-repeat: no-repeat;
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: #ECECEC;
+}
+nav{
+    display: flex;
+    margin-left: 195px;
+    margin-top: 60px;
+}
+nav .list{
+    display: flex;
+    gap: 50px;
+    margin-left: 1000px;
+    font-weight: 1000;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+h1{
+    margin-left: 730px;
+    margin-top: 300px;
+    font-size: 30px;
+    color: #20bc7e;
+}
+p{
+    margin-left: 590px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+p span{
+    margin-left: 27px;
+}
+p .last{
+    margin-left: 125px;
+}
+.box{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 380px;
+   
+    border-color:white;
+    
+    box-shadow: 20px;
+    font-size: 20px;
+    gap: 200px;
+}
+.box .doctor{
+    
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 20px 70px 20px 70px;
+    border-radius: 20px;
+    font-size: 30px;
+    border-color: rgb(25, 5, 44);
+    
+}
+.box .doctor span{
+    margin-left: 28px;
+    color: #20bc7e;
+    font-size: 29px;
+}
+.box .customer{
+    
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 20px 70px 20px 70px;
+    border-radius: 20px;
+    font-size: 30px;
+    border-color: rgb(25, 5, 44);
+    
+}
+.box .customer span{
+    margin-left: 18px;
+    color: #20bc7e;
+    font-size: 29px;
+}
+.box .student{
+    
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 20px 70px 20px 70px;
+    border-radius: 20px;
+    font-size: 30px;
+    border-color: rgb(25, 5, 44);
+    
+}
+.box .student span{
+    margin-left: 27px;
+    color: #20bc7e;
+    font-size: 29px;
+}
+

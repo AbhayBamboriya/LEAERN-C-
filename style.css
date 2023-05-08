@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+
+}
+body{
+    
+    background-color:#b4a1a1;
+    display:flex; 
+    flex-direction: column;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+button{
+    background-color: rgb(18, 155, 155);
+    color:white;
+    cursor:pointer;
+    padding:4px 10px;
+    border:1px solid white;
+    border-radius:5px;
+    font-weight: 6px;
+    width: fit-content;
+
+}
+button:hover{
+    background-color: #ffffff;
+    color:#000000;
+    border:1px solid black;
+}
+nav{
+    display:flex;
+    width:100%;
+    font-size:35px;
+    align-items: center;
+    justify-content: space-around;
+}
+nav .logo {
+    font-weight: 1700 px;
+    font-size:35px;
+    font-size: 50px;
+
+
+    
+}
+nav ul{
+    display:flex;
+    gap:90px;
+    align-items: center;
+    font-weight: 1000 px;
+
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 1000;
+
+}
+nav.search{
+    gap:35px;
+    display:flex;
+    font-size:35px;
+}
+input{
+    padding: 4px 10px;
+}
+.left h1{
+    font-size: 50px;
+    padding:100px 0px 0px 100px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.image{
+    display: flex;
+}
+.left h1 span{
+    color: rgb(18, 155, 155);
+    font-weight: 900;
+    
+    font-size: 160 px ;
+
+}
+.left p{
+    font-weight:100;
+    font-size:50px;
+    padding:30px 100px;
+
+}
+.left p span{
+    font-weight: 700;
+    color: rgb(18, 155, 155);
+    font-size: 70px;
+}
+.right img{
+    display: flex;
+    flex-direction: column;
+    height:500px;
+    width:500px;
+    border-radius: 50%;
+    
+}
+.right{
+    display:flex;
+    flex-direction: column;
+    width:40%;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    
+}
+.chat{
+    display: flex;
+    align-items: center;
+    gap: 30 px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 50px;
+}
+.footer{
+    display:flex;
+    gap:50px;
+    align-items: center;
+}
